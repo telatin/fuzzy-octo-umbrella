@@ -2,3 +2,6 @@
 .vscode
 *.egg-info
 build
+output.txt
+gpto.py
+preamble.txt

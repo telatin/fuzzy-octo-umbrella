@@ -52,4 +52,3 @@ def main(
         config_path=config,
         verbose=verbose
     )
-
