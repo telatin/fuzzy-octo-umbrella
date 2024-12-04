@@ -5,3 +5,4 @@ build
 output.txt
 gpto.py
 preamble.txt
+*.pyc

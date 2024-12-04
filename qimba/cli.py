@@ -4,7 +4,7 @@ from rich.panel import Panel
 from typing import Optional
 from pathlib import Path
 
-from qimba.commands import run, qc, denoise
+from qimba.commands import run, qc, denoise, config
 from qimba.utils.config import Config
 
 # Initialize Typer app
@@ -21,6 +21,7 @@ console = Console()
 app.add_typer(run.app, name="run")
 app.add_typer(qc.app, name="qc")
 app.add_typer(denoise.app, name="denoise")
+app.add_typer(config.app, name="config")
 
 def version_callback(value: bool):
     if value:
